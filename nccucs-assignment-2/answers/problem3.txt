@@ -1,0 +1,12 @@
+要提供預設正確輸入，來比對輸出是否正確，
+以及提供不合規定的輸入，要回傳輸入錯誤的訊息
+
+如果輸入正確的話
+CreateGraph A   :呼叫該Graph A並回傳A已存在的訊息  
+CreateNode x N  :呼叫該Node x 並回傳x的cost值已存在的訊息  
+AddNode A x     :查詢Graph中是否有node x存在
+AddEdge A x y   查詢Graph中是否有edge x->y存在
+ListNodes A     :是否為應有的Node清單
+ListEdges A     :是否為應有的Edge清單
+ListChildren A x:是否為應有的Node Children清單
+FindPath A x->y :回傳值是否為預期的數值

@@ -1,0 +1,4 @@
+problem 1:如果是使用Node的cost最小當優先，可能會經過多個cost小的抵達目標Node，比方每個Node cost 為3，經過三個Node抵達目標，總cost為九，
+但若有另一條路徑cost 為六，只要經過一個極可以抵達目標，那此cost最小路徑應該為cost 6而非9.
+problem:因為原本是路徑有固定cost，但是在這cost是在Node上，所以不需要有這行code.
+

@@ -1,0 +1,29 @@
+Specification
+Graph
+{ 
+  Graph name :Graph名字
+    
+  Node
+  {
+  Node name:Node名字
+  cost
+    Edge
+    {
+    Node2 name:抵達的Node
+    
+    }  
+  } 
+   
+ 
+}
+
+指令
+CreateGraph A   :產生一個新的graph
+CreateNode x N  :產生一個新的點x，cost 為N
+AddNode A x     :在graph A中加入一個點x
+AddEdge A x y   :在點x、點y中，建立邊的關係
+ListNodes A     :列出graph A中的所有點
+ListEdges A     :列出graph 的所有邊 a->b (a、b為Node name)
+ListChildren A x:列出graph A中點x的子節點
+FindPath A x->y : 找到x到y的最小路徑
+

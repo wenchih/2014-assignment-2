@@ -1,0 +1,14 @@
+CreateGraph A   :產生一個新的graph
+CreateNode x N  :產生一個新的點x，cost 為N
+AddNode A x     :在graph A中加入一個點x
+AddEdge A x y   :在點x、點y中，建立邊的關係
+ListNodes A     :列出graph A中的所有點
+ListChildren A x:列出graph A中點x的子節點
+FindPath A x->y : 找到x到y的最小路徑
+演算法
+1.設定起點
+2.設定結束點
+3.如果下個點不為空，設立到下個該節點的最短路徑值
+4.如果該節點為目標節點 回傳queueMinPath
+5.如果不是且該點還有子節點從頭執行繼續計算
+6.否則回傳此路徑不存在
